@@ -1,0 +1,20 @@
+.container__searchBar{
+    width: 50px;
+}
+.container__select{
+    margin-top: 12px;
+}
+.select__item{
+    padding: 9px;
+}
+.container__select__searchBar{
+    transform: translateX(67px);
+    display: flex;
+}
+.searchBarIcon--external-search{
+    transform: translatex(-56px);
+    background-color: #e63027;
+}
+.searchIcon{
+    color: #fff;
+}
