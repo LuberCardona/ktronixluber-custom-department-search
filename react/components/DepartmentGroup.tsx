@@ -17,7 +17,7 @@ type Category = {
 const DepartmentGroup = ({departments, handleSetSlug}: Props)=>{
   console.log("Mi grupo de departamentos es:", departments)
   const onHandleSetSlug = (event: any) => {
-    handleSetSlug(`${event.target.value}?_q={term\}&map=ft`)
+    handleSetSlug(event.target.value)
   }
   const CSS_HANDLES = [
     "select__item"

@@ -12,8 +12,6 @@ const DepartmentSearch = () => {
   const {data, loading} = useQuery(QUERY_VALUE)
   const [slug, setSlug] = useState("")
 
-  console.log("Mi slug seleccionado es:", slug)
-
   const CSS_HANDLES = [
     "container__select__searchBar",
     "container__select",
@@ -28,7 +26,7 @@ const DepartmentSearch = () => {
     <div className={handles.container__select__searchBar}>
       <div className={handles.container__select}>
         <DepartmentGroup 
-          departments={data?.categories[0]?.children}
+          departments={data?.categories}
           handleSetSlug={setSlug}
         />
       </div>
