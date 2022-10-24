@@ -1,7 +1,12 @@
 # custom-department-search
 
 Custom department search es un componente que permitirá realizar búsqueda por departamento.
+
+## Vista en escritorio
 ![customDepartmentSearch](https://user-images.githubusercontent.com/66228518/197623206-6cff4751-199e-48f7-aa8a-5ad21a8a5f74.JPG)
+
+## Vista en móviles
+![customDepartmentSearch-mobile](https://user-images.githubusercontent.com/66228518/197625438-756f7329-e84c-4343-bf03-9c0b1bdd2527.JPG)
 
 ## Configuración
 ### Paso 1 - Configuración Básica
